@@ -52,7 +52,7 @@ public class UserInput{
 			if (entry.equalsIgnoreCase(testValue) && printBool == true) {
 				System.out.println("Hi");
 			}
-			else if(entry.equalsIgnoreCase(testValue) && printBool == true){
+			else{
 				System.out.println("Out of luck");
 				keepRunning = false;
 			}
